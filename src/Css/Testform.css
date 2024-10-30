@@ -1,117 +1,118 @@
 * {
- margin: 0%;
- padding: 0%;
- box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 .Testform {
- height: 100vh;
- display: flex;
- background-image: url("../img/vector-abstract-geometric-backgrounddesign-elementform-a-blue-hexagon-T50730.jpg");
- background-size: cover;
- align-items: center;
+  height: 100vh;
+  display: flex;
+  background-image: url("../img/vector-abstract-geometric-backgrounddesign-elementform-a-blue-hexagon-T50730.jpg");
+  background-size: cover;
+  align-items: center;
 }
 
 .container {
- width: 100%;
- display: flex;
- justify-content: center;
- gap: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .column {
- width: 40%;
- border-radius: 40px;
- border: 4px solid #41bbea;
- /* background-color: #d0d9dd; */
+  width: 40%;
+  border-radius: 40px;
+  border: 4px solid #41bbea;
+  /* background-color: rgb(212, 234, 248); */
 }
 
 .formflex {
- width: 100%;
- padding: 25px 10px;
+  width: 100%;
+  padding: 25px 10px;
 }
 
 input {
- border: 2px solid #348bd2;
- background-color: #54a5dc;
- border-radius: 10px;
- outline: none;
- width: 80%;
- padding: 8px 0px;
+  border: 2px solid #348bd2;
+  background-color: #54a5dc;
+  border-radius: 10px;
+  outline: none;
+  width: 80%;
+  padding: 8px 0px;
 }
 
 .input {
- width: 80%;
- display: flex;
- margin-top: 10px;
- gap: 10px;
- color: #2a4357;
+  width: 80%;
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+  color: #2a4357;
 }
 
 button {
- border: 2px solid #348bd2;
- background-color: #54a5dc;
- padding: 4px 15px;
- color: #2a4357;
+  border: 2px solid #348bd2;
+  background-color: #54a5dc;
+  padding: 4px 15px;
+  color: #2a4357;
 }
 
 #submitbtn {
- display: flex;
+  display: flex;
 }
 
 .lists {
- height: 200px;
- overflow: auto;
- color: #2a4357;
+  height: 200px;
+  overflow: auto;
+  color: #2a4357;
 }
 
 .lists li {
- width: 85%;
- position: relative;
- padding: 10px 15px;
- margin: 0px 20px;
- list-style-type: none;
- background-color: #a9daf3;
+  width: 85%;
+  position: relative;
+  padding: 10px 15px;
+  margin: 10px 20px;
+  list-style-type: none;
+  background-color: #a9daf3;
+  border: 2px solid #348bd2;
 }
 
 .searchbar {
- width: 100%;
- display: flex;
- justify-content: center;
- margin-bottom: 15px;
- position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  position: sticky;
 }
 
 span {
- position: absolute;
- right: 5px;
- top: 0px;
- cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 0px;
+  cursor: pointer;
 }
 
 .input button.active {
- background-color: #437ea6;
+  background-color: #437ea6;
 }
 
 .formdetails {
- width: 100%;
- height: 100vh;
-background-image: url(../img/pngtree-beautiful-blue-liquid-wave-background-vector-picture-image_2339506.jpg);
-background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/pngtree-beautiful-blue-liquid-wave-background-vector-picture-image_2339506.jpg);
+  background-size: cover;
 
 }
 
 .formcontainer {
- width: 100%;
- display: flex;
- justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
 }
 
 .coldetail {
- width: 50%;
- border-radius: 40px;
- border: 4px solid #35a3cf;
- padding: 20px;
- margin-top: 100px;
+  width: 50%;
+  border-radius: 40px;
+  border: 4px solid #35a3cf;
+  padding: 20px;
+  margin-top: 100px;
 }

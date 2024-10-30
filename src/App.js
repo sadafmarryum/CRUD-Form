@@ -1,5 +1,3 @@
-
-import './App.css';
 import './Css/Testform.css'
 import Testform from './Component/Testform';
 
